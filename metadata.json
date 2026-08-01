@@ -1,92 +1,196 @@
 {
-  "MapProperties": {
-    "CustomAbilities": [
-      {
-        "AbilityId": "boilingOil",
-        "AbilityType": "target_spell",
-        "Cooldown": 5,
-        "Description": "A new spell effect.",
-        "ManaCost": 5,
-        "Name": "Boiling Oil",
-        "TargetRange": 80
-      }
-    ],
-    "CustomUpgrades": [
-      {
-        "Description": "Increases unit stats.",
-        "Name": "New Upgrade",
-        "UpgradeId": "Upgrade_001"
-      }
-    ],
-    "CustomWeapons": [
-      {
-        "AttackCooldown": 1.5,
-        "AttackType": "melee",
-        "Damage": 10,
-        "Name": "axe",
-        "Range": 8,
-        "WeaponId": "axe"
-      }
-    ]
-  },
-  "base": {
-    "Armor": 10,
-    "ArmorType": "building",
-    "AttackCooldown": 0,
-    "AttackType": "none",
-    "CostGold": 100,
-    "CostStone": 0,
-    "CostWood": 0,
-    "Damage": 0,
-    "Description": "A new custom unit.",
-    "GoldBounty": 10,
-    "MaxHp": 500,
-    "Name": "base",
-    "PopCost": 1,
-    "ProductionTime": 10,
-    "Range": 0,
-    "ScanRadius": 1000,
-    "Speed": 0,
-    "UnitId": "base"
-  },
-  "footman": {
-    "Armor": 0,
-    "ArmorType": "light",
-    "AttackCooldown": 1.5,
-    "AttackType": "melee",
-    "CostGold": 100,
-    "CostStone": 0,
-    "CostWood": 0,
-    "Damage": 10,
-    "Description": "A new custom unit.",
-    "GoldBounty": 100,
-    "MaxHp": 100,
-    "Name": "Footman",
-    "PopCost": 1,
-    "ProductionTime": 10,
-    "Range": 7,
-    "ScanRadius": 20,
-    "Speed": 3,
-    "UnitId": "footman"
-  },
-  "tower": {
-    "Armor": 0,
-    "ArmorType": "light",
-    "AttackCooldown": 1.5,
-    "AttackType": "ranged",
-    "CostGold": 100,
-    "CostStone": 0,
-    "CostWood": 0,
-    "Damage": 15,
-    "Description": "A new custom unit.",
-    "GoldBounty": 10,
-    "MaxHp": 100,
-    "Name": "tower",
-    "PopCost": 1,
-    "ProductionTime": 10,
-    "Range": 80,
-    "ScanRadius": 100,
-    "Speed": 0,
-    "UnitId": "tower"
-  }
+    "MapProperties":  {
+
+                      },
+    "Assets":  {
+                   "decals":  {
+                                  "acid_drip.png":  "e1ae4c43637d45fdfc0a927f1ca214ee7a030e464939219bd2170141600f3c64",
+                                  "arcane_spark.png":  "b44e0bbea2ed1d70380381a37bec49db7881509c38225688c70b2539de58ad4f"
+                              },
+                   "glb":  {
+                               "building":  {
+                                                "ancient_altar.glb":  "90e663ae8a33a5b5c264311f0da28b57a7582aa2998cba2272865106c5fec4c2",
+                                                "castle.glb":  "2857417a188864b47bed1a796240dfb0b7f3e2b969db02d8340eaf0c6fe50d16",
+                                                "magic_tower.glb":  "e9efb0dd85caeb21b6ab89af73dec12bd51bbaba65a72bfe363847b6cc1a4fd6",
+                                                "tower.glb":  "3f366647c1d55966b894a9822942dad88edd2f9871ae076eb6e130643041bc08"
+                                            },
+                               "character":  {
+                                                 "adventurer.glb":  "543910be92b4f5648731a3458c58c2ab4689e71a1c601cb762900ebc488d145f",
+                                                 "armored_dragon.glb":  "9602413526348e5867c191ae0c6450b4acb144814e0b2c2e67a0087a9091a6c2",
+                                                 "black_armored_robot.glb":  "f62aad5b1e2599a8b41683592af4d9517ebc7f755342afd3e8f41d49c4d5bd14",
+                                                 "cyber_dragon.glb":  "6fec887a3eb097a1efb1592ec9d6ddba5bfc06c97810500e8b17a6ae0838224f",
+                                                 "zombie_soldier.glb":  "b142ef7547d2d5541d9ae2313157ed4c198a018b3b7d5aa1c5f9926eb59233d6"
+                                             },
+                               "environment":  {
+                                                   "fantasy_tree.glb":  "70feee30d8646ca3aa306f352ee920034791b9544df08306f25bf7cff383f4fe",
+                                                   "rock_formation.glb":  "5575947dc231f516519419bdee996f80a0bd195dd19cd5d4321f0e861822dbb8"
+                                               },
+                               "props":  {
+                                             "architectural_components.glb":  "636a37bf9d9b379340f2a3c9ec5c63c86c88ccaee7392df6809a2fdf5ead9292",
+                                             "wooden_box.glb":  "897e92fb41a141e7ad3c86738a6cec1ab9a4c6b85e7a9f10d20ce77fe5e80ced"
+                                         }
+                           },
+                   "icons":  {
+                                 "victory_flag.png":  "9229018b139ea0e269a8e1cb2c1f5130107056ddde81bacbd759a7f74eee51e1",
+                                 "wood_logs.png":  "9282ac3b62682d82e3139f30a384823058b3423ade551a53edcf14092c076d51"
+                             },
+                   "music":  {
+                                 "cyber_siege.ogg":  "e39e86b749c097538fa9661e4a4fafa2cc1612f5d5cdbce304aceb3901777172"
+                             },
+                   "sfx":  {
+                               "blink_teleport_pop.ogg":  "b441f65d88612bb1b29a74abdd731061b6f441f6c1683a88c768479a3c309f16",
+                               "dark_curse_decay.ogg":  "3bbb8807a7f9154f02b2782d65dffcf05801e6044d5eb1e8f8b51a48e66302b4"
+                           },
+                   "skyboxes":  {
+                                    "jade_shrine.png":  "07d819f01cbbada5d711ca37c3041ecbdf4e91f9db99a0e6348ab7e575a038ed",
+                                    "star_reach.png":  "48cb6f7411f929a3d06d602bb525536894bc5a19681d72282760d359c1af97d0"
+                                },
+                   "textures":  {
+                                    "ancient_ruin.ktx2":  "376787275c145e4a930da203c934856134c5fb3469ce868117ebdd53fa7b7d6e",
+                                    "deep_moss.ktx2":  "16293262dc02e7d078ffcdfaa70edd963160f8c0d78d51b757e1c5c0d8257128",
+                                    "grey_slate.ktx2":  "2dd4df9fb30a28db31854797ff40e636ba9a6dfb1d40d6559b7783305102eb17",
+                                    "lava_vein.ktx2":  "d0153bad3dac55c7aced8c1a9a5a34894fdde97da98de7eb8cc2d3ae2dd108ac",
+                                    "mossy_stone.ktx2":  "925ccf48d8fb100289da73b728f3d4a44d04aa756e8aaeec66c65bdc90fd6e68",
+                                    "river_silt.ktx2":  "6cd80e922c75307481ba9bf0ee7a72c4f7742db234d8983fb712b42ec4cedc7c",
+                                    "royal_marble.ktx2":  "094ba2d7e3d8fa74488cbaf491894e57bbfc0c9af97b69342d4f2ddc7b993aea",
+                                    "mist_grove.ktx2":  "108a0eea0d6880302184a3ad9fb4a20a2baeb1ce1764fff6c9395c0a20c40fe6"
+                                },
+                   "vfx_spritesheets":  {
+                                            "arcane_surge_sheet.png":  {
+                                                                           "columns":  4,
+                                                                           "hash":  "5dc4b22b6c5f4c5c40f91cf4929d04667bae13e642f0ad4813b6b83dd4255059",
+                                                                           "rows":  4
+                                                                       },
+                                            "solar_flare_sheet.png":  {
+                                                                          "columns":  4,
+                                                                          "hash":  "9dc2f9b91f8af2eee0d174fa246ab818fc626201f629a175f173e9b01d9147c1",
+                                                                          "rows":  4
+                                                                      }
+                                        }
+               },
+    "adventurer":  {
+                       "Armor":  10,
+                       "ArmorType":  "heavy",
+                       "AttackCooldown":  1.2,
+                       "AttackType":  "melee",
+                       "CostGold":  100,
+                       "CostStone":  0,
+                       "CostWood":  0,
+                       "Damage":  45,
+                       "Description":  "A new custom unit.",
+                       "GoldBounty":  100,
+                       "IsHero":  true,
+                       "MaxHp":  800,
+                       "Name":  "adventurer",
+                       "PopCost":  1,
+                       "ProductionTime":  10,
+                       "Range":  2,
+                       "ScanRadius":  100,
+                       "Speed":  8,
+                       "UnitId":  "adventurer"
+                   },
+    "black_armored_robot":  {
+                                "Armor":  25,
+                                "ArmorType":  "heavy",
+                                "AttackCooldown":  2.5,
+                                "AttackType":  "melee",
+                                "CostGold":  1000,
+                                "CostStone":  0,
+                                "CostWood":  0,
+                                "Damage":  120,
+                                "Description":  "A new custom unit.",
+                                "GoldBounty":  500,
+                                "MaxHp":  2500,
+                                "Name":  "black_armored_robot",
+                                "PopCost":  5,
+                                "ProductionTime":  30,
+                                "Range":  3,
+                                "ScanRadius":  20,
+                                "Speed":  3.5,
+                                "UnitId":  "black_armored_robot"
+                            },
+    "cyber_dragon":  {
+                         "Armor":  5,
+                         "ArmorType":  "heavy",
+                         "AttackCooldown":  1.5,
+                         "AttackType":  "ranged",
+                         "CostGold":  300,
+                         "CostStone":  0,
+                         "CostWood":  0,
+                         "Damage":  35,
+                         "Description":  "A new custom unit.",
+                         "GoldBounty":  50,
+                         "MaxHp":  300,
+                         "Name":  "cyber_dragon",
+                         "PopCost":  3,
+                         "ProductionTime":  15,
+                         "Range":  15,
+                         "ScanRadius":  25,
+                         "Speed":  10,
+                         "UnitId":  "cyber_dragon"
+                     },
+    "magic_tower":  {
+                        "Armor":  8,
+                        "ArmorType":  "building",
+                        "AttackCooldown":  1.5,
+                        "AttackType":  "ranged",
+                        "CostGold":  200,
+                        "CostStone":  0,
+                        "CostWood":  0,
+                        "Damage":  40,
+                        "Description":  "A new custom unit.",
+                        "GoldBounty":  0,
+                        "MaxHp":  500,
+                        "Name":  "magic_tower",
+                        "PopCost":  0,
+                        "ProductionTime":  10,
+                        "Range":  20,
+                        "ScanRadius":  30,
+                        "Speed":  0,
+                        "UnitId":  "magic_tower",
+                        "Abilities":  [
+                                          "fireball",
+                                          "lightning"
+                                      ]
+                    },
+    "tower":  {
+                  "Armor":  8,
+                  "ArmorType":  "building",
+                  "AttackCooldown":  1.5,
+                  "AttackType":  "ranged",
+                  "CostGold":  200,
+                  "CostStone":  0,
+                  "CostWood":  0,
+                  "Damage":  40,
+                  "Description":  "A new custom unit.",
+                  "GoldBounty":  0,
+                  "MaxHp":  500,
+                  "Name":  "tower",
+                  "PopCost":  0,
+                  "ProductionTime":  10,
+                  "Range":  20,
+                  "ScanRadius":  30,
+                  "Speed":  0,
+                  "UnitId":  "tower"
+              },
+    "zombie_soldier":  {
+                           "Armor":  2,
+                           "ArmorType":  "light",
+                           "AttackCooldown":  2,
+                           "AttackType":  "melee",
+                           "CostGold":  25,
+                           "CostStone":  0,
+                           "CostWood":  0,
+                           "Damage":  8,
+                           "Description":  "A new custom unit.",
+                           "GoldBounty":  11,
+                           "MaxHp":  80,
+                           "Name":  "zombie_soldier",
+                           "PopCost":  1,
+                           "ProductionTime":  2,
+                           "Range":  1.5,
+                           "ScanRadius":  10,
+                           "Speed":  4,
+                           "UnitId":  "zombie_soldier"
+                       }
 }
